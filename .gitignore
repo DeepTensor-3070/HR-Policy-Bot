@@ -1,0 +1,79 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Python Cache & Artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# AI Agents & Local Config
+# =========================
+.agents/
+
+# =========================
+# Logfire & Logs
+# =========================
+.logfire/
+*.log
+logs/
+
+# =========================
+# Testing & Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Secrets & Credentials
+# =========================
+*.pem
+*.key
+secrets/
+credentials.json
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+*.orig
